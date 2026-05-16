@@ -1,0 +1,66 @@
+Removed Pin From Net: NetName=+5 Pin=C1-1
+Removed Pin From Net: NetName=+5 Pin=C1-2
+Removed Pin From Net: NetName=RPWM1 Pin=C1-3
+Removed Pin From Net: NetName=+12 Pin=C1-4
+Removed Pin From Net: NetName=GND Pin=C1-5
+Removed Pin From Net: NetName=LPWM1 Pin=C1-6
+Removed Pin From Net: NetName=+5 Pin=C1-7
+Removed Pin From Net: NetName=GND Pin=C1-8
+Removed Pin From Net: NetName=+12 Pin=C2-1
+Removed Pin From Net: NetName=+5 Pin=C2-2
+Removed Pin From Net: NetName=+5 Pin=C2-3
+Removed Pin From Net: NetName=RPWM2 Pin=C2-4
+Removed Pin From Net: NetName=LPWM2 Pin=C2-5
+Removed Pin From Net: NetName=+5 Pin=C2-6
+Removed Pin From Net: NetName=GND Pin=C2-7
+Removed Pin From Net: NetName=GND Pin=C2-8
+Removed Member From Class: ClassName=Sch_ALICE Member=C1
+Removed Member From Class: ClassName=Sch_ALICE Member=C2
+Added Component: Designator=P2(HDR/Header/6/DL/2mm)
+Add component (AddParameter): Name = "BRAND"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PACKAGE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PART NO"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "STOCK CODE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SUPPLIER"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TYPE"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P3(HDR/Terminal/2/5mm)
+Add component (AddParameter): Name = "BRAND"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PACKAGE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PART NO"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "STOCK CODE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SUPPLIER"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TYPE"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P4(HDR/Header/6/DL/2mm)
+Add component (AddParameter): Name = "BRAND"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PACKAGE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PART NO"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "STOCK CODE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SUPPLIER"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TYPE"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P5(HDR/Terminal/2/5mm)
+Add component (AddParameter): Name = "BRAND"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PACKAGE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PART NO"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "STOCK CODE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SUPPLIER"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TYPE"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 Pin=P2-1
+Added Pin To Net: NetName=GND Pin=P2-2
+Added Pin To Net: NetName=+5 Pin=P2-3
+Added Pin To Net: NetName=+5 Pin=P2-4
+Added Pin To Net: NetName=RPWM1 Pin=P2-5
+Added Pin To Net: NetName=LPWM1 Pin=P2-6
+Added Pin To Net: NetName=+12 Pin=P3-1
+Added Pin To Net: NetName=GND Pin=P3-2
+Added Pin To Net: NetName=LPWM2 Pin=P4-1
+Added Pin To Net: NetName=RPWM2 Pin=P4-2
+Added Pin To Net: NetName=+5 Pin=P4-3
+Added Pin To Net: NetName=+5 Pin=P4-4
+Added Pin To Net: NetName=GND Pin=P4-5
+Added Pin To Net: NetName=+5 Pin=P4-6
+Added Pin To Net: NetName=+12 Pin=P5-1
+Added Pin To Net: NetName=GND Pin=P5-2
+Added Member To Class: ClassName=Sch_ALICE Member=Component P2 BTS_Left
+Added Member To Class: ClassName=Sch_ALICE Member=Component P3 PW_Left
+Added Member To Class: ClassName=Sch_ALICE Member=Component P4 BTS_Right
+Added Member To Class: ClassName=Sch_ALICE Member=Component P5 PW_Right

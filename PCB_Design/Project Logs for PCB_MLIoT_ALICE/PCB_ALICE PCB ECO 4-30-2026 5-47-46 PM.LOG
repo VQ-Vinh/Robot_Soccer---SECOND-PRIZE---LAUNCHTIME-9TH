@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=RPWM2 Pin=P4-1
+Removed Pin From Net: NetName=LPWM2 Pin=P4-2
+Removed Pin From Net: NetName=RPWM1 Pin=U2-31
+Removed Pin From Net: NetName=LPWM1 Pin=U2-32
+Added Pin To Net: NetName=LPWM2 Pin=P4-1
+Added Pin To Net: NetName=RPWM2 Pin=P4-2
+Added Pin To Net: NetName=LPWM1 Pin=U2-31
+Added Pin To Net: NetName=RPWM1 Pin=U2-32

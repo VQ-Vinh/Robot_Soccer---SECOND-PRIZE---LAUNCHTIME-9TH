@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=+12 Pin=LM1-1
+Removed Pin From Net: NetName=B- Pin=LM1-2
+Removed Pin From Net: NetName=GND Pin=LM1-3
+Removed Pin From Net: NetName=+5 Pin=LM1-4
+Removed Member From Class: ClassName=Sch_ALICE Member=LM1
+Added Component: Designator=XL4015(PCBComponent_1)
+Added Pin To Net: NetName=+12 Pin=XL4015-1
+Added Pin To Net: NetName=B- Pin=XL4015-2
+Added Pin To Net: NetName=+5 Pin=XL4015-3
+Added Pin To Net: NetName=GND Pin=XL4015-4
+Added Member To Class: ClassName=Sch_ALICE Member=Component XL4015 BUCK

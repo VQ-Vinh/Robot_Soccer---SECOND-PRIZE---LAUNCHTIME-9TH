@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=GND Pin=LM1-2
+Added Pin To Net: NetName=GND Pin=P1-2
+Change Net Name : Old Net Name=GND New Net Name=B-
+Added Rule: Name=Schematic Supply Nets_3

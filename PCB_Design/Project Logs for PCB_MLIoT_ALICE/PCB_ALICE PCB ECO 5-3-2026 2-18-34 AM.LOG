@@ -1,0 +1,4 @@
+Added Component: Designator=U3(ESP32_38)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.com/datasheet/2/891/esp32_wroom_32d_esp32_wroom_32u_datasheet_en-1365844.pdf"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=Sch_ALICE Member=Component U3 ESP32_30

@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=+12 Pin=S1-1
+Removed Pin From Net: NetName=NetP1_1 Pin=S1-2
+Change Component Comment : Designator=P3 Old Comment=PW_Left New Comment=BTS_12V
+Added Pin To Net: NetName=+12 Pin=S1-2
+Added Pin To Net: NetName=NetP1_1 Pin=S1-3

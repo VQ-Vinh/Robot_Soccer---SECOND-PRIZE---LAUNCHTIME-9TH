@@ -1,0 +1,6 @@
+Change Component Designator: OldDesignator=L NewDesignator=C1
+Change Component Designator: OldDesignator=R NewDesignator=C2
+Change Component Designator: OldDesignator=STM32 NewDesignator=U2
+Change Component Designator: OldDesignator=SW NewDesignator=S1
+Added Pin To Net: NetName=GND Pin=LM1-2
+Added Pin To Net: NetName=GND Pin=P1-2
