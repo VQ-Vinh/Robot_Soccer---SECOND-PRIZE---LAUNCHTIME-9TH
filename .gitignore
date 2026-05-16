@@ -1,0 +1,86 @@
+# Claude Code
+.claude/
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.pyc
+*.pyo
+*.bin
+*.hex
+
+# Build outputs
+build/
+dist/
+out/
+target/
+Release/
+Debug/
+MDK-ARM/Controller_Car/*.axf
+MDK-ARM/Controller_Car/*.hex
+MDK-ARM/Controller_Car/*.map
+MDK-ARM/Controller_Car/*.sct
+MDK-ARM/Controller_Car/*.lnp
+MDK-ARM/Controller_Car/*.htm
+MDK-ARM/Controller_Car/*.build_log.htm
+MDK-ARM/Controller_Car/*.dep
+MDK-ARM/Controller_Car/*.d
+MDK-ARM/Controller_Car/*.o
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.*.swp
+*.bak
+*.orig
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Keil uVision
+*.uvguix.*
+*.uvoptx
+*.uvprojx
+
+# SolidWorks
+*.sldprt.1
+*.sldasm.1
+*.slddrw.1
+*.sldcfg
+ Simulation/
+ Equations/
+
+# Altium Designer
+*.PcbDoc
+*.SchDoc
+*.PrjPcb
+*.PcbDoc.Zip
+*.PrjPcb.Zip
+*.SchDoc.Zip
+History/
+Project Outputs/
+Project Logs/
+__Previews/
+*.Log
+*.Rep
+*.DBLog
+
+# General
+*.log
+*.lock
