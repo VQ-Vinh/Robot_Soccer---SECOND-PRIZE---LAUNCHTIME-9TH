@@ -2,6 +2,8 @@
 
 Dự án robot soccer đạt giải nhì cuộc thi Launchtime lần thứ 9.
 
+![Robot Soccer](images/Robot_Soccer-MLIoT_ALICE.png)
+
 ## Cấu trúc dự án
 
 ```
@@ -20,6 +22,14 @@ Dự án robot soccer đạt giải nhì cuộc thi Launchtime lần thứ 9.
     ├── Drivers/          # HAL Driver
     └── MDK-ARM/          # Project Keil
 ```
+
+### Hình ảnh thiết kế
+
+![Thiết kế 3D](images/3D.png)
+
+![PCB Schematic](images/Schematic.png)
+
+![3D PCB](images/3D_PCB.png)
 
 ## Phần cứng
 
