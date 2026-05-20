@@ -1,13 +1,11 @@
-# ⚽ Robot Soccer – ALICE
+# ⚽ Robot Soccer – MLIoT_ ALICE
 
 [![Launchtime 9th](https://img.shields.io/badge/Award-Second%20Prize-blue)](#)
 [![STM32](https://img.shields.io/badge/MCU-STM32F103C8T6-03234B?logo=stmicroelectronics)](#)
 [![Keil](https://img.shields.io/badge/IDE-Keil%20MDK--ARM-39458C)](#)
 [![License](https://img.shields.io/badge/License-MIT-green)](#)
 
-**Giải nhì** cuộc thi **Launchtime lần thứ 9** – Robot bai (soccer robot) điều khiển từ xa qua UART, sử dụng vi điều khiển STM32F103C8T6.
-
-> **Second Prize** at **Launchtime 9th** – A UART-controlled differential-drive robot soccer car built around the STM32F103C8T6 microcontroller.
+**Giải nhì** cuộc thi **Launchtime 9th** – Soccer robot điều khiển từ xa qua Bluetooth, sử dụng vi điều khiển STM32F103C8T6.
 
 <img src="images/Robot_Soccer-MLIoT_ALICE.png" alt="Robot Soccer ALICE" width="640">
 
@@ -15,8 +13,8 @@
 
 ## ✨ Tính năng / Features
 
-- 🚗 **Điều khiển từ xa** qua UART (9600 baud) – dùng module Bluetooth hoặc cáp serial
-- ⚙️ **Vi sai 2 bánh** (differential drive) – 2 động cơ DC với driver L298N
+- 🚗 **Điều khiển từ xa** qua Bluetooth – dùng module Bluetooth HC05
+- ⚙️ **4 động cơ DC** –  với 2 driver BTS7960
 - 🎛 **Điều chỉnh tốc độ** 8 mức (40%–100%)
 - 🔦 **Đèn LED** trước & sau (bật/tắt)
 - 📯 **Còi** (buzzer)
@@ -30,7 +28,7 @@
 | Linh kiện              | Chi tiết                              |
 |------------------------|---------------------------------------|
 | **Vi điều khiển**      | STM32F103C8T6 (ARM Cortex-M3, 72 MHz) |
-| **Động cơ**            | 2× DC motor + driver L298N            |
+| **Động cơ**            | 4× DC motor + 2 driver BTS7960        |
 | **Giao tiếp**          | USART1 (TX: PA9, RX: PA10, 9600 8N1)  |
 | **Nguồn**              | 12V DC                                |
 | **Đèn**                | LED trước (PB0), LED sau (PB1)        |
@@ -90,7 +88,7 @@ Gửi ký tự đơn qua UART (9600 baud, 8N1).
 
 ### ⏱ Safety Timeout
 
-Robot tự động dừng (`S`) sau **1 giây** không nhận được lệnh để tránh mất kiểm soát.
+Robot tự động dừng (`S`) sau **1 giây** không nhận được lệnh để tránh mất kiểm soát trong trận đấu.
 
 ---
 
